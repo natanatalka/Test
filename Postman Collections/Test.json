@@ -13,7 +13,13 @@
       "request": {
         "url": "google.com.ua",
         "method": "GET",
-        "header": [],
+        "header": [
+          {
+            "description": "",
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
         "body": {},
         "description": ""
       },
